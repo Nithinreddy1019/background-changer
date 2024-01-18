@@ -1,0 +1,29 @@
+.buttons-section {
+    margin: 25px auto;
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    right: 15px;
+    width: fit-content;
+
+    display: flex;
+    gap: 25px;
+
+    padding: 7px 10px;
+
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 3px bisque;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    min-width: 75px;
+    min-height: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
